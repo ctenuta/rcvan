@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[JoyStickViewController viewWillAppear:]:JoyStickViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController beanManager:didConnectBean:error:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.connection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JoyStickViewController touchesMoved:withEvent:]:JoyStickViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.leftActionCenter.x">
+            </PersistentString>
+            <PersistentString
+               value = " self.currentTouchPosition.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController update]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[JoyStickViewController isInLeft]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JoyStickViewController viewDidLoad]:JoyStickViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.container">
+            </PersistentString>
+            <PersistentString
+               value = "JoystickViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JoyStickViewController touchesBegan:withEvent:]:JoyStickViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "y">
+            </PersistentString>
+            <PersistentString
+               value = "x">
+            </PersistentString>
+            <PersistentString
+               value = "thumbLayer.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.joystickCenter.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PTDBean sendSerialData:]:PTDBean.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "MSG_ID_SERIAL_DATA">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
