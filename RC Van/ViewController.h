@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) PTDBeanManager *beanManager;
 @property (strong, nonatomic) PTDBean *rcVan;
+
 @property (retain, nonatomic) IBOutlet UIButton  *connection;
 @property (retain, nonatomic) IBOutlet UILabel  *state;
 @property (strong, nonatomic) IBOutlet UIView *joyStickView;

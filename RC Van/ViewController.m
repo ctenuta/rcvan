@@ -36,17 +36,6 @@ int lastGas;
     isConnected = NO;
 }
 
-//-(void)enableControls {
-//    [self.joyStickView setUserInteractionEnabled:YES];
-//    [self.joyStickView setHidden:NO];
-//}
-//
-//
-//-(void)disableControls {
-//    [self.joyStickView setHidden:YES];
-//    [self.joyStickView setUserInteractionEnabled:YES];
-//}
-
 
 -(void)update {
     
@@ -132,8 +121,29 @@ int lastGas;
 
 -(void)beanManagerDidUpdateState:(PTDBeanManager *)beanManager {
     
-    if (self.beanManager.state == BeanManagerState_PoweredOn) {
-        //[self startScanning];
+    
+    if (self.beanManager.state == BeanManagerState_PoweredOff) {
+        
+        UIAlertController * alert = [UIAlertController
+                                     alertControllerWithTitle:@"Bluetooth Off"
+                                     message:@"Turn on your bluetooth"
+                                     preferredStyle:UIAlertControllerStyleAlert];
+
+        
+        
+        UIAlertAction* okButton = [UIAlertAction
+                                    actionWithTitle:@"OK"
+                                    style:UIAlertActionStyleDefault
+                                    handler:^(UIAlertAction * action) {
+                                        
+                                    }];
+        
+  
+        [alert addAction:okButton];
+    
+        
+        [self presentViewController:alert animated:YES completion:nil];
+        
     }
     
 }

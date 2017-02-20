@@ -109,9 +109,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="connection" destination="HbS-Gj-taR" id="4Kh-yZ-aL0"/>
-                        <outlet property="joyStickView" destination="8ue-Pk-WiZ" id="he4-Pv-yR6"/>
-                        <outlet property="state" destination="SDA-dU-0tT" id="0kS-Ny-JTT"/>
+                        <outlet property="connection" destination="HbS-Gj-taR" id="fJE-Ej-neY"/>
+                        <outlet property="joyStickView" destination="8ue-Pk-WiZ" id="9Fu-tx-oN5"/>
+                        <outlet property="state" destination="SDA-dU-0tT" id="t2C-x6-NPu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -122,6 +122,10 @@
         <scene sceneID="zqu-Hp-BZt">
             <objects>
                 <viewController id="W8J-li-b6g" customClass="JoyStickViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcc-4r-Rw8"/>
+                        <viewControllerLayoutGuide type="bottom" id="apr-Zx-Be0"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="g8c-c0-fmg">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

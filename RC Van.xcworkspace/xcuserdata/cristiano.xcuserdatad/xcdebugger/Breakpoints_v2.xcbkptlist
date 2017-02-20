@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-stopScanning"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "-startScanning"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "-update"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "-update"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "-beanManager:didConnectBean:error:"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "-beanManager:didDisconnectBean:error:"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "-beanManagerDidUpdateState:"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "-connect:"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "-disconnect"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "-connectionClick:"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-beanManager:didConnectBean:error:"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "-update"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-disconnect"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,29 +346,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509288501.977439"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "-connect:"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RC Van/AppDelegate.m"
-            timestampString = "509287797.113625"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "myExceptionHandler()"
-            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RC Van/ViewController.m"
-            timestampString = "509289239.40717"
+            timestampString = "509297145.443013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
             landmarkName = "-connect:"
             landmarkType = "7">
          </BreakpointContent>
