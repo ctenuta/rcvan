@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4E5789D51E57862A0068C751 /* Bean_iOS_OSX_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5789D31E57838B0068C751 /* Bean_iOS_OSX_SDK.framework */; };
-		4E5789DA1E57ACAD0068C751 /* JoyStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */; };
 		4E5789EE1E5B36810068C751 /* bean.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5789EC1E5B36810068C751 /* bean.png */; };
 		4E5789EF1E5B36810068C751 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5789ED1E5B36810068C751 /* iphone.png */; };
+		4E5789F21E5B374D0068C751 /* JoyStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5789F11E5B374D0068C751 /* JoyStickViewController.m */; };
 		4E7AF00B1E5781BD001BAEC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF00A1E5781BD001BAEC9 /* main.m */; };
 		4E7AF00E1E5781BD001BAEC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF00D1E5781BD001BAEC9 /* AppDelegate.m */; };
 		4E7AF0111E5781BD001BAEC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF0101E5781BD001BAEC9 /* ViewController.m */; };
@@ -22,10 +22,10 @@
 
 /* Begin PBXFileReference section */
 		4E5789D31E57838B0068C751 /* Bean_iOS_OSX_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bean_iOS_OSX_SDK.framework; path = "../../../Library/Developer/Xcode/DerivedData/RC_Van-eshghnzxysykyzcblcvdcxofhngo/Build/Products/Debug-iphoneos/Bean-iOS-OSX-SDK/Bean_iOS_OSX_SDK.framework"; sourceTree = "<group>"; };
-		4E5789D81E57ACAD0068C751 /* JoyStickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoyStickViewController.h; path = ../JoyStickViewController.h; sourceTree = "<group>"; };
-		4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoyStickViewController.m; path = ../JoyStickViewController.m; sourceTree = "<group>"; };
 		4E5789EC1E5B36810068C751 /* bean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bean.png; sourceTree = SOURCE_ROOT; };
 		4E5789ED1E5B36810068C751 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = SOURCE_ROOT; };
+		4E5789F01E5B374D0068C751 /* JoyStickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyStickViewController.h; sourceTree = "<group>"; };
+		4E5789F11E5B374D0068C751 /* JoyStickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyStickViewController.m; sourceTree = "<group>"; };
 		4E7AF0061E5781BD001BAEC9 /* RC Van.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Van.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7AF00A1E5781BD001BAEC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E7AF00C1E5781BD001BAEC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 				4E7AF00D1E5781BD001BAEC9 /* AppDelegate.m */,
 				4E7AF00F1E5781BD001BAEC9 /* ViewController.h */,
 				4E7AF0101E5781BD001BAEC9 /* ViewController.m */,
-				4E5789D81E57ACAD0068C751 /* JoyStickViewController.h */,
-				4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */,
+				4E5789F01E5B374D0068C751 /* JoyStickViewController.h */,
+				4E5789F11E5B374D0068C751 /* JoyStickViewController.m */,
 				4E7AF0121E5781BD001BAEC9 /* Main.storyboard */,
 				4E7AF0151E5781BD001BAEC9 /* Assets.xcassets */,
 				4E7AF0171E5781BD001BAEC9 /* LaunchScreen.storyboard */,
@@ -245,7 +245,7 @@
 			files = (
 				4E7AF0111E5781BD001BAEC9 /* ViewController.m in Sources */,
 				4E7AF00E1E5781BD001BAEC9 /* AppDelegate.m in Sources */,
-				4E5789DA1E57ACAD0068C751 /* JoyStickViewController.m in Sources */,
+				4E5789F21E5B374D0068C751 /* JoyStickViewController.m in Sources */,
 				4E7AF00B1E5781BD001BAEC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
