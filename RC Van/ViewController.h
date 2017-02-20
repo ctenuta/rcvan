@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@import Bean_iOS_OSX_SDK;
+
+@interface ViewController : UIViewController<PTDBeanManagerDelegate, PTDBeanDelegate>
+
+@property (strong, nonatomic) PTDBeanManager *beanManager;
+@property (strong, nonatomic) PTDBean *rcVan;
+@property (retain, nonatomic) IBOutlet UIButton  *connection;
+@property (retain, nonatomic) IBOutlet UILabel  *state;
+@property (strong, nonatomic) IBOutlet UIView *joyStickView;
+
+-(void)finish;
 
 @end
 

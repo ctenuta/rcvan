@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5789D51E57862A0068C751 /* Bean_iOS_OSX_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5789D31E57838B0068C751 /* Bean_iOS_OSX_SDK.framework */; };
+		4E5789DA1E57ACAD0068C751 /* JoyStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */; };
+		4E5789EE1E5B36810068C751 /* bean.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5789EC1E5B36810068C751 /* bean.png */; };
+		4E5789EF1E5B36810068C751 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5789ED1E5B36810068C751 /* iphone.png */; };
 		4E7AF00B1E5781BD001BAEC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF00A1E5781BD001BAEC9 /* main.m */; };
 		4E7AF00E1E5781BD001BAEC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF00D1E5781BD001BAEC9 /* AppDelegate.m */; };
 		4E7AF0111E5781BD001BAEC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7AF0101E5781BD001BAEC9 /* ViewController.m */; };
 		4E7AF0141E5781BD001BAEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7AF0121E5781BD001BAEC9 /* Main.storyboard */; };
 		4E7AF0161E5781BD001BAEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7AF0151E5781BD001BAEC9 /* Assets.xcassets */; };
 		4E7AF0191E5781BD001BAEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7AF0171E5781BD001BAEC9 /* LaunchScreen.storyboard */; };
+		4FD9D1C05B8D485CC676C15F /* Pods_RC_Van.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAF1F00DE558D2CEC79B487 /* Pods_RC_Van.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E5789D31E57838B0068C751 /* Bean_iOS_OSX_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bean_iOS_OSX_SDK.framework; path = "../../../Library/Developer/Xcode/DerivedData/RC_Van-eshghnzxysykyzcblcvdcxofhngo/Build/Products/Debug-iphoneos/Bean-iOS-OSX-SDK/Bean_iOS_OSX_SDK.framework"; sourceTree = "<group>"; };
+		4E5789D81E57ACAD0068C751 /* JoyStickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoyStickViewController.h; path = ../JoyStickViewController.h; sourceTree = "<group>"; };
+		4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoyStickViewController.m; path = ../JoyStickViewController.m; sourceTree = "<group>"; };
+		4E5789EC1E5B36810068C751 /* bean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bean.png; sourceTree = SOURCE_ROOT; };
+		4E5789ED1E5B36810068C751 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = SOURCE_ROOT; };
 		4E7AF0061E5781BD001BAEC9 /* RC Van.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Van.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7AF00A1E5781BD001BAEC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E7AF00C1E5781BD001BAEC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,9 @@
 		4E7AF0151E5781BD001BAEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E7AF0181E5781BD001BAEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E7AF01A1E5781BD001BAEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EE8C6F138236C6838C4FB8 /* Pods-RC Van.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RC Van.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RC Van/Pods-RC Van.debug.xcconfig"; sourceTree = "<group>"; };
+		BCAF1F00DE558D2CEC79B487 /* Pods_RC_Van.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RC_Van.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4897D8197A2775F9E17593A /* Pods-RC Van.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RC Van.release.xcconfig"; path = "Pods/Target Support Files/Pods-RC Van/Pods-RC Van.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5789D51E57862A0068C751 /* Bean_iOS_OSX_SDK.framework in Frameworks */,
+				4FD9D1C05B8D485CC676C15F /* Pods_RC_Van.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070F0CB0691A0FF517574355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E5789D31E57838B0068C751 /* Bean_iOS_OSX_SDK.framework */,
+				BCAF1F00DE558D2CEC79B487 /* Pods_RC_Van.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0744409038C893CF3D70062E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94EE8C6F138236C6838C4FB8 /* Pods-RC Van.debug.xcconfig */,
+				F4897D8197A2775F9E17593A /* Pods-RC Van.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4E7AEFFD1E5781BD001BAEC9 = {
 			isa = PBXGroup;
 			children = (
 				4E7AF0081E5781BD001BAEC9 /* RC Van */,
 				4E7AF0071E5781BD001BAEC9 /* Products */,
+				0744409038C893CF3D70062E /* Pods */,
+				070F0CB0691A0FF517574355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +93,14 @@
 		4E7AF0081E5781BD001BAEC9 /* RC Van */ = {
 			isa = PBXGroup;
 			children = (
+				4E5789EC1E5B36810068C751 /* bean.png */,
+				4E5789ED1E5B36810068C751 /* iphone.png */,
 				4E7AF00C1E5781BD001BAEC9 /* AppDelegate.h */,
 				4E7AF00D1E5781BD001BAEC9 /* AppDelegate.m */,
 				4E7AF00F1E5781BD001BAEC9 /* ViewController.h */,
 				4E7AF0101E5781BD001BAEC9 /* ViewController.m */,
+				4E5789D81E57ACAD0068C751 /* JoyStickViewController.h */,
+				4E5789D91E57ACAD0068C751 /* JoyStickViewController.m */,
 				4E7AF0121E5781BD001BAEC9 /* Main.storyboard */,
 				4E7AF0151E5781BD001BAEC9 /* Assets.xcassets */,
 				4E7AF0171E5781BD001BAEC9 /* LaunchScreen.storyboard */,
@@ -86,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E7AF01D1E5781BD001BAEC9 /* Build configuration list for PBXNativeTarget "RC Van" */;
 			buildPhases = (
+				ABFEB1CCB56323930928F14B /* [CP] Check Pods Manifest.lock */,
 				4E7AF0021E5781BD001BAEC9 /* Sources */,
 				4E7AF0031E5781BD001BAEC9 /* Frameworks */,
 				4E7AF0041E5781BD001BAEC9 /* Resources */,
+				7A21EFD37BA12CF425B358E0 /* [CP] Embed Pods Frameworks */,
+				9121A305CE3A23C9A1BFADEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,12 +181,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7AF0191E5781BD001BAEC9 /* LaunchScreen.storyboard in Resources */,
+				4E5789EE1E5B36810068C751 /* bean.png in Resources */,
+				4E5789EF1E5B36810068C751 /* iphone.png in Resources */,
 				4E7AF0161E5781BD001BAEC9 /* Assets.xcassets in Resources */,
 				4E7AF0141E5781BD001BAEC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A21EFD37BA12CF425B358E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RC Van/Pods-RC Van-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9121A305CE3A23C9A1BFADEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RC Van/Pods-RC Van-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABFEB1CCB56323930928F14B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E7AF0021E5781BD001BAEC9 /* Sources */ = {
@@ -153,6 +245,7 @@
 			files = (
 				4E7AF0111E5781BD001BAEC9 /* ViewController.m in Sources */,
 				4E7AF00E1E5781BD001BAEC9 /* AppDelegate.m in Sources */,
+				4E5789DA1E57ACAD0068C751 /* JoyStickViewController.m in Sources */,
 				4E7AF00B1E5781BD001BAEC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,8 +362,10 @@
 		};
 		4E7AF01E1E5781BD001BAEC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EE8C6F138236C6838C4FB8 /* Pods-RC Van.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = B782JQ8NSA;
 				INFOPLIST_FILE = "RC Van/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,8 +376,10 @@
 		};
 		4E7AF01F1E5781BD001BAEC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4897D8197A2775F9E17593A /* Pods-RC Van.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = B782JQ8NSA;
 				INFOPLIST_FILE = "RC Van/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -310,6 +407,7 @@
 				4E7AF01F1E5781BD001BAEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
